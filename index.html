@@ -5,37 +5,28 @@ test8
   <meta charset="UTF-8">
   <title>Your Page Title</title>
   <style>
-   ul,
+   
+ul,
 ol {
   list-style: none;
   padding-left: 0;
 }
 
-ul li,
-ol li {
-  position: relative;
-  padding-left: 25px;
+li {
   margin-bottom: 10px;
- color: #1E90FF; /* Dark blue color */
-}
 }
 
-ul li:before,
-ol li:before {
+li:before {
   content: "";
-  position: absolute;
-  left: 0;
-  top: 7px;
-  width: 10px;
-  height: 10px;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background-color: #FF5F6D;
+  background-color: #151B54; /* Dark blue color */
+  margin-right: 10px;
 }
 
-ul li:before {
-  background-color: #1ABC9C;
-}
-       /* Additional styles for the page */
+/* Additional styles for the page */
     body {
       font-family: Arial, sans-serif;
       background-color: #F4F4F4;
