@@ -21,17 +21,12 @@ body {
   border-radius: 4px;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
 li {
   margin-bottom: 10px;
 }
 
 h1 {
-  color: red;
+  color: #C04000;
   font-size: 28px;
   margin-bottom: 20px;
 }
