@@ -19,6 +19,12 @@ body {
   padding: 40px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
 }
 
 li {
